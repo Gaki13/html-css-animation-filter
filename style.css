@@ -47,6 +47,9 @@
 }
 .ex-11-icon {
     font-size: 60px;
+    animation-name: semi-rotazione;
+    animation-duration: 4s;
+    animation-play-state: running;
 }
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -144,4 +147,11 @@
 @keyframes Rotazione {
     0% { transform: rotate(0deg);}
     100% { transform: rotate(360deg);}
+}
+
+@keyframes semi-rotazione {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(90deg) ;}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(270deg);}
 }
