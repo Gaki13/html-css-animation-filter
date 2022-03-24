@@ -115,3 +115,14 @@
     filter: brightness(1);
     filter: sepia(1);
 }
+
+.ex-8-img{
+    transition: all 3s;
+}
+
+.ex-8-img:hover{
+    filter: saturate(3);
+    filter: hue-rotate(180deg);
+    border-radius: 30px;
+}
+
