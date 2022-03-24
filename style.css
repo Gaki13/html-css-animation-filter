@@ -106,3 +106,12 @@
 .ex-6-img:hover{  
     filter: grayscale(1);
 }
+
+.ex-7-img{
+    transition: all 3s;
+}
+
+.ex-7-img:hover{
+    filter: brightness(1);
+    filter: sepia(1);
+}
