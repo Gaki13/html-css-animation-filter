@@ -40,6 +40,10 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation-name: Rotazione;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
 }
 .ex-11-icon {
     font-size: 60px;
@@ -135,4 +139,9 @@
     border-radius: 20px;
     filter: brightness(3);
     filter: grayscale(1); 
+}
+
+@keyframes Rotazione {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
 }
